@@ -1,8 +1,9 @@
 import React from "react";
-import Effect from "./Effect";
+import ColorBox from "./components/ColorBox";
+import ColorContext from "./contexts/color";
 
 const App = () => {
-  return <Effect />;
+  return <ColorBox />;
 };
 
 export default App;
